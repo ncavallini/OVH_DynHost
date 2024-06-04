@@ -34,7 +34,7 @@ def get_current(host):
     return result[0].to_text()
 
 def ping_healthchecks():
-    url = "https://hc-ping.com/1e94ff38-c601-4085-880d-b62f7e3a70bb"
+    url = "YOUR_URL"
     requests.post(url)
 
 
