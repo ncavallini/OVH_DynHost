@@ -3,7 +3,7 @@ A small Python script to update OVH DNS records (type A) dynamically.
 
 ## Installation & Running
 1. Install following dependencies:
-   `pip install dnspython decouple`
+   `pip install dnspython python-decouple`
 2. Open the `.env` file and update `OVH-USERNAME` and `OVH-PASSWORD` with the credentials of the DynHost account (you can create them into your OVH Control Panel > Domains > example.com > DynHost tab)
 3. Replace `YOUR_URL` in the source code with your healthchecks.io url
 4.  Run the script passing one or more domain names you want to update: `python main.py example.com`
